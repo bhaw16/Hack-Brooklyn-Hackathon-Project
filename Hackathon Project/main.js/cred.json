@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "planner-app-409422",
+  "private_key_id": "cedcdf8a2d1c143191d6c14a7cf2010b10a71cea",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDwYGTnSwSuMGaK\n0mOqZ+0BIOtllq6ih43KpbA9OQsIkh5DHIaipP2+4qKmffTf7R/q75uJA1bQf9vS\nE6oq4LYfYiRyLEjbxcOVD/OVi+3nHGaCQ0TwuaPy1T4/SnC/Ps3b0AwRi+2dq9mX\nef9vXIqV/wTd3uiQrAhD4DOetHO3nFnNNJGdMGYwZylsmSkWrmFOogFUOtcPrvec\n9XhBzHyw2lX4Zjj9WYXG2LUVSIKlOZM/I2o+OK9C3tPCoPEmiktb1AUH4LKvSXzs\njQhwD/0Tpfn3OMHDPGI7l7AmetONrrUE8kVn8CMO5dE/zw5dAd4FA5qCR3DEb0AZ\nKxkklyh1AgMBAAECggEAOBvsGcA9WrKiEPf8uzdwj3GhePBkGbymCJ5F5fiVfn3r\nEfPL6pW0RFUvLclbelSlvWeKSQBuSJN72ozsDP+wi2FTjBIRvLksRvR3AZqs4ORU\nekYdBsryfdmwYsIr0LxmfY+R7ZuZztLhIvZffV1e3RXuyyJ/61s4v61LJ1nMZBhn\nW1GmoAoJxxWFbls+AivWJkwJBmYBGGuMYkEm8D1r5CwjmLSCvghsgQjmqNGtGipj\nTVcrOkTI1BukFRMiYjwp+GTMaw5mUgakB9npNT13P/FiYIAwiGYoqU7CEpDW2Cji\nlGiIFdp7mIkYZa6hjEdgXtYafCE0DDlPHNSVyLKGKQKBgQD8WL/hUxnuXaxB69Ty\n6yuX4ENbPdk8PNXdrkLN2Yj8DqkLXnpEAceiBOfg3VF+6tNvMQky2wz6eIFSUCab\nXheOtSQf8koDEXQH9oU0N+rAJK+D8GxLKhvCd3ruE4mjLXhm32U/5zGpX6wOKlb9\nj+X2jPFIfokawPrxZwVuGvSDjQKBgQDz20fe1Dps1+Is+4G/qGPxqax0XtDlyGhS\nj5/fsACpqShjarubk/WvZ4jFS8+BeUS+V95W10UsqmT/4HYvhZON0qgZiFtVxCGf\neaPSnDtE5o0pjDWGqFggjzY3qn7NSFc58orTQExjiTwyssB1mDMzRL0skk0rlIpg\n9ZEsOA5KiQKBgQCOHL0S/GXiI8ba6SFoHKDUS2wjelVY4zneOkFNBHFs4iS5Tl+0\n5Pu0dubPcFRxEXY5bHgtt8c7V5oc7R6Q6RCDQegyRZUA3VdnFKI3ojYGN6LQvxl9\nyx0PC5KjeUVOLFFePfkbX+xL4qFW6OlMqzlq/Dz2Aqzb8EpioQ4hz/RcEQKBgQCU\ngyKVMblXWm8TqCTP/ZTIs+YkhS5CEzh9t5zNVVpB+ZRwX6tcR9Mj/TENv2rj1mAo\ncEknqDknx6p1L1WrAXXotLfNvP6rECTOA/3ioWVzQ9oKyKo8lT/+rFl/s2VATmNZ\nFj64A3vCTu0Lj1OpCoV8Hsv7XiqDdRaFkGjWflktyQKBgQCGbNdWKsUqPj4ECKxZ\nVKQ933soZO0RHUBuezPJt4V424BTKRR/gqVDGaykw0k+F0BXiSZ86r+z/pB1UzpL\nqvcs8/fkwFcEUeN1z7gmnNXQI/Np/hIzD3i6oUJgIeHVttAuUu1zSlqggmXOvXc+\njG7i288TimPcTquNdtCyvRcenA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "admin-account@planner-app-409422.iam.gserviceaccount.com",
+  "client_id": "103052041284679512839",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/admin-account%40planner-app-409422.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

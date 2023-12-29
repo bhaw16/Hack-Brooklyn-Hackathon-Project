@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="Google Sheet.css">
+</head>
+<body>
+    <section>
+    <div class="form-box">
+        <div class="form-value">
+	<div class="container">
+		<form method="post" action="https://script.google.com/macros/s/AKfycbwyQ_IUPCQ4yOd9qsc4ifLoRCUUrtmm5E-H-DWT-ToSD7rh7fkeLhnGE_wNIQ0doP536w/exec" name="contact-form">
+			<h4>Create A New Reminder</h4>
+            <div class="inputbox">
+			<input type="text" name="your-name" placeholder="Name">
+        </div>
+        <div class="inputbox">
+            <ion-icon name="mail-outline"></ion-icon>
+			<input type="email" name="your-email" placeholder="Email">
+        </div>
+        <div class="inputbox">
+            <input type="date" name="date-of-message" placeholder="Date">
+            </div>
+            <div class="inputbox">
+			<textarea name="reminder-title" rows="1" placeholder="Your Reminder Title"></textarea>
+            </div>
+            <div class="inputbox"> 
+            <textarea name="reminder-message" rows="7" placeholder="Your Reminder Message"></textarea>
+        </div>
+			<input type="submit" value="Submit" id="submit">
+		</form>
+	</div>
+</section>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<script src="Google Sheet.js"></script>
+</body>
+</html>
