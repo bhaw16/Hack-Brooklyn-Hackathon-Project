@@ -1,0 +1,10 @@
+
+table, thead, td {
+    border: 3px solid black;
+    fill: black;
+    text-align: right;
+    border-collapse: collapse;
+}
+
+
+
