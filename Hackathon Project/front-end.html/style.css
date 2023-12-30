@@ -1,36 +1,185 @@
+
 body {
   font-family: Arial, sans-serif;
-  margin: 20px;
+  margin: 0px;
+  padding-right: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  background: url("../images/wallpaper.jpeg") no-repeat;
+  background-position: center;
+  background-size: cover;
+
 }
 
 .calendar {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 5px;
+  /* justify-content: space-between; /* I added this to move calendar to the right but its in middle now */
+}
+
+.month {
+  backdrop-filter: blur(15px);
+  border-radius: 5px;
+  text-align: center;
+  padding: 1px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(255, 247, 247, 0.5);
+  margin-bottom: 20px;
+  background: transparent;
+  flex: 0 0 calc(33.33% - 50px);
+  margin-bottom: 5px;
+  color: white;
+
+  
+}
+
+/* Hover effect for the month element */
+.month:hover {
+  background-color: #eeb861 /* Change background color on hover */
+}
+
+.hover-effect {
+  color: #333;
+  transition: color 0.3s ease; 
+  transform: translateY(0); 
+    transition: transform 0.3s ease; 
+        
+}
+
+.month:hover + .hover-effect {
+  color:  #eec173; 
+  transform: translateY(-10px); 
+
 }
 
 
-.month {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 10px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
-  background-color: #fff; /* White background */
-  flex: 0 0 calc(33.33% - 20px); /* Three columns with 20px gap */
+
+
+.month h2{
+  margin: 0;
+  font-size: 16px;
+}
+h4{
+  margin-bottom: 25px;
+  text-align:center;
+}
+ h6{
+  font-size: 20; 
+  color: white; 
 }
 
 table {
-  width: 100%;
+  width: 100%; 
   border-collapse: collapse;
 }
 
 th, td {
-  border: 1px solid #ddd;
-  padding: 8px;
+  border: 1px solid rgb(255, 227, 248);
+  padding: 3px;
   text-align: center;
+  font-size: 12px;
 }
 
 th {
-  background-color: #f2f2f2;
+  background-color: rgb(252, 211, 88);
+}
+
+#content-container {
+  flex: 1; /* Take remaining space */
+  margin-left: 20px;
+}
+
+
+
+section{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+
+}
+.form-box{
+    position: relative;
+    width: 500px;
+    height: 600px;
+    background: transparent;
+    border: 2px solid rgba(245, 175, 240, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(5px); 
+    display: flex;
+    justify-content: left;
+    margin-left: 70px;
+    align-items: center;
+
+}
+h4{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+.inputbox {
+  margin: 30px auto; /* Vertically centered with top and bottom margin, horizontally centered with auto margins */
+  width: 310px;
+  border-bottom: 2px solid white;
+  text-align: center; /* Center the text within the input box */
+}
+
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+
+
+textarea{
+     height: 70px;
+     width: 350px;
+     background-color: transparent;
+     outline: none;
+     color: white;
+}
+.inputbox input {
+    width: 200%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 40px 0 7px;
+    color: white;
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: white;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+#submit {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+#submit:hover{
+	background-color: white;
 }

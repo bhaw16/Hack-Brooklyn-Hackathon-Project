@@ -3,12 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>2023 Calendar</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Reminder Request</title>
 </head>
 <body>
-
-    <h1>2023 Calendar</h1>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+        <div class="container">
+            <form method="post" action="https://script.google.com/macros/s/AKfycbwyQ_IUPCQ4yOd9qsc4ifLoRCUUrtmm5E-H-DWT-ToSD7rh7fkeLhnGE_wNIQ0doP536w/exec" name="contact-form">
+               
+                <h4>Create A New Reminder</h4>
+                <h6> Disclaimer: When selecting a date for your reminder, please select the one day ahead of when you
+                    would like to recieve your reminder. For example, for Dec 29th you would set your date as Dec 30th.  </h6>
+                <div class="inputbox">
+                <input type="text" name="your-name" placeholder="Name">
+            </div>
+            <div class="inputbox">
+                <ion-icon name="mail-outline"></ion-icon>
+                <input type="email" name="your-email" placeholder="Email">
+            </div>
+            <div class="inputbox">
+                <input type="date" name="date-of-message" placeholder="Date">
+                </div>
+                <div class="inputbox">
+                <textarea name="reminder-title" rows="1" placeholder="Your Reminder Title"></textarea>
+                </div>
+                <div class="inputbox"> 
+                <textarea name="reminder-message" rows="7" placeholder="Your Reminder Message"></textarea>
+            </div>
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </div>
+    </section>
 
     <div class="calendar">
         <!-- January -->
@@ -791,10 +818,12 @@
         <tr>
             <td>31</td>
         </tr>
-        </tbody>
+        </tbody> 
     </table>
-</body>
 </div>
-
-
+</body>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<script src="Google Sheet.js"></script>
+</div>
 </html>
