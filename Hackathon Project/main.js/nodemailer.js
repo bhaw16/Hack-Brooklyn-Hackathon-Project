@@ -119,7 +119,7 @@ async function run(emails, messages, subjects, Dates) {
 
     console.log(`Scheduling email for ${emails[i]} at ${emailScheduledDate}`);
 
-    // Schedule the email at the specified date and time
+    // Schedule the email based on date entered
     schedule.scheduleJob(emailScheduledDate, async function () {
       const transporter = nodemailer.createTransport({
         host: "smtp.gmail.com",
@@ -153,7 +153,7 @@ app.listen(port, () => {
 });
 
 
-/*
+/* THIS CODE IS IGNORED, AS IT WAS WIP
 const express = require('express');
 const {google} = require("googleapis");
 const bodyParser = require('body-parser');
